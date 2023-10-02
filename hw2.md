@@ -1,25 +1,9 @@
 
 ### PERT圖
 
-
+![PERT](PERT.png 'PERT')
 
 ### 甘特圖
-
-```mermaid
-gantt
-    title A Gantt Diagram
-    研擬計畫    :a1, 2023-10-02, 1d
-    任務分配    :a4, after a1  , 4d
-    取得硬體    :after a1  , 17d
-    程式開發    :2023-10-04  , 70d
-    安裝硬體    :2023-10-05  , 10d
-    程式測試    :2023-10-06  , 30d
-    撰寫使用手冊    :after a4  , 25d
-    轉換檔案    :after a4  , 20d
-    系統測試    :2023-10-08  , 25d
-    使用者訓練    :2023-10-09  , 20d
-    使用者測試    :2023-10-11  , 25d
-```
 
 ```mermaid
 gantt
