@@ -1,1 +1,23 @@
 
+```
+classDiagram
+    Animal <|-- Dog
+    Animal <|-- Cat
+    Animal <|-- Cow
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +noise()
+    class Dog{
+      +String Name
+      +Bark()
+    }
+    class Cat{
+      -int NumberofChildren
+      -Meow()
+    }
+    class Cow{
+      +bool is_feeding
+      +Moo()
+    }
+```
