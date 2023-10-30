@@ -1,5 +1,5 @@
 
-```Mermaid
+```mermaid
 classDiagram
     Animal <|-- Dog
     Animal <|-- Cat
